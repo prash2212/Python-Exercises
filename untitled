@@ -1,0 +1,13 @@
+import sys
+
+class parent:
+	def __init__ (self):
+		print ("parent class")
+		
+class child1(parent):
+	def __init__(self):
+		print ("child1 class")
+		
+if __name__ == "__main__":
+	oChild1 = Child1()
+	
